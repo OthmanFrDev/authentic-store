@@ -1,6 +1,6 @@
-import React , {useState,useEffect,useRef} from 'react'
-import {AiOutlineVerticalRight,AiOutlineVerticalLeft} from 'react-icons/ai'
-
+import React, { useState, useEffect, useRef } from 'react'
+import { AiOutlineVerticalRight, AiOutlineVerticalLeft } from 'react-icons/ai'
+import styles from './slider.module.css'
 export default function Slider() {
 
     const sliderImages = ['/assets/gucci.jpg', '/assets/gucci1.webp', '/assets/gucci2.webp', '/assets/gucci3.webp']
@@ -49,9 +49,9 @@ export default function Slider() {
     };
 
     return (
-        <div ref={slideRef} className="w-full select-none relative">
+        <div ref={slideRef} className="w-full select-none relative bg-center">
             <div className="aspect-w-16 aspect-h-9">
-                <img src={sliderImages[currentIndex]} alt="" />
+                <img className='w-full h-[500px] object-cover' src={sliderImages[currentIndex]} alt="" />
             </div>
 
             <div className="absolute w-full top-1/2 transform -translate-y-1/2 px-3 flex justify-between items-center">
