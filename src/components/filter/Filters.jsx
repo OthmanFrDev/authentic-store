@@ -20,7 +20,7 @@ function Filters() {
                 <div>
                     <p className='font-bold text-gray-700'>Filter Type</p>
                     <div className='flex justfiy-between flex-wrap'>
-                        {categories.map(cat => <FilterItem filterType={filterType} filterName={cat.name} />)}
+                        {categories.map((cat,index) => <FilterItem key={index} filterType={filterType} filterName={cat.name} />)}
                     </div>
                 </div>
             </div>
