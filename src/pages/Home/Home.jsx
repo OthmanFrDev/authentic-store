@@ -1,14 +1,14 @@
 import React from 'react'
-import Categories from '../../components/categories/Categories'
+import Checkout from '../../components/checkout/Checkout'
+import Products from '../../components/product-list/Products'
 import Slider from '../../components/slider/Slider'
-import ProductDetails from '../product-details/ProductDetails'
 
 function Home() {
     return (
         <>
             <Slider />
-            <Categories />
-            <ProductDetails />
+            <Products />
+            <Checkout />
         </>
     )
 }

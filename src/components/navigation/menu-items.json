@@ -1,28 +1,24 @@
 {
     "items": [
         {
-            "name": "Home",
+            "name": "How It Works",
             "path": "/"
         },
         {
-            "name": "New arrivals",
+            "name": "Our Advantages",
             "path": "/products"
         },
         {
-            "name": "Women",
+            "name": "Customer Testimonial",
             "path": "/categories"
         },
         {
-            "name": "Men",
+            "name": "FAQ",
             "path": "/men"
         },
         {
-            "name": "Bags",
+            "name": "Contact",
             "path": "/bags"
-        },
-        {
-            "name": "Jewellery",
-            "path": "/jewellery"
         }
     ]
 }
