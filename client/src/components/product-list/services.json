@@ -1,0 +1,132 @@
+{
+    "products": [
+        {
+            "name": "Tik Tok",
+            "img": "assets/tiktok.svg",
+            "services": [
+                {
+                    "name": "Followers",
+                    "img": "assets/followers.svg",
+                    "quantities": [
+                        {
+                            "quantity": 1000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 5000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 10000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 50000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 100000,
+                            "price": "19.99$"
+                        }
+                    ]
+                },
+                {
+                    "name": "Likes",
+                    "img": "assets/likes.svg",
+                    "quantities": [
+                        {
+                            "quantity": 1000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 5000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 10000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 50000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 100000,
+                            "price": "19.99$"
+                        }
+                    ]
+                },
+                {
+                    "name": "Comments",
+                    "img": "assets/comment.svg",
+                    "quantities": [
+                        {
+                            "quantity": 1000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 5000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 10000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 50000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 100000,
+                            "price": "19.99$"
+                        }
+                    ]
+                },
+                {
+                    "name": "Shares",
+                    "img": "assets/share.svg",
+                    "quantities": [
+                        {
+                            "quantity": 1000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 5000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 10000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 50000,
+                            "price": "19.99$"
+                        },
+                        {
+                            "quantity": 100000,
+                            "price": "19.99$"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Instagram",
+            "img": "assets/instagram.svg",
+            "services": [
+                {
+                    "name": "Followers",
+                    "img": "assets/followers.svg"
+                },
+                {
+                    "name": "Likes",
+                    "img": "assets/likes.svg"
+                },
+                {
+                    "name": "Comments",
+                    "img": "assets/views.svg"
+                }
+            ]
+        }
+    ]
+}
